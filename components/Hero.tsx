@@ -6,8 +6,8 @@ const Hero = () => {
     <div className='flex flex-col items-center justify-center bg-gray-100 py-8 sm:py-16 px-4'>
       <div className='max-w-4xl text-center'>
         <h1 className='text-2xl sm:text-4xl text-left font-bold mb-4'>
-          A mysterious <span className='text-[#f63d68]'>Maqalka</span> blog, you
-          can explore recent articles. A simple way to connect the expert
+          Madal aqris <span className='text-[#f63d68]'>Maqalka</span> waa madal lagu xaqiijiyo sax ahaanshaha xogaha dhagaheena soo gaaro ee inooga yimaada bulshooyinka.
+
         </h1>
         <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-left'>
         maqalka waa madal lagu xaqiijiyo sax ahaanshaha xogaha dhagaheena soo gaaro ee inooga yimaada bulsho.
