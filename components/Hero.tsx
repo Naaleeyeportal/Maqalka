@@ -10,12 +10,11 @@ const Hero = () => {
           can explore recent articles. A simple way to connect the expert
         </h1>
         <p className='text-base sm:text-lg text-gray-700 leading-relaxed text-left'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde beatae
-          veniam a nisi? Cumque tenetur quaerat esse perferendis ipsa obcaecati,
-          voluptates magnam iste molestias fugit vel provident reiciendis, nulla
-          similique voluptatum soluta consectetur recusandae ex incidunt quasi!
-          Natus assumenda suscipit animi a obcaecati iusto cumque, quisquam
-          voluptates ea corporis et?
+        maqalka waa madal lagu xaqiijiyo sax ahaanshaha xogaha dhagaheena soo gaaro ee inooga yimaada bulsho.
+
+Halkan waxaad ka daalacan kartaa falanqayn qoto dheer oo ku saabsan siyaasadda guud ee dunida,Taariikhda iyo technology-da.
+
+Haddii aad xiisayso arimaha sare halkan waa meesha ku haboon ee aad xogahaas ka heli karto.
         </p>
         <div className='flex flex-col sm:flex-row gap-4 py-8 items-center'>
           <Link
