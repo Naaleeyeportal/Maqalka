@@ -65,7 +65,7 @@ const Navbar = () => {
             {/* Socials */}
             <ul className='flex space-x-4'>
               <li>
-                <Link href='https://twitter.com' aria-label='Twitter'>
+                <Link href='https://x.com/its_naaleeye?t=UeXN580xMCRPeFhjdQnfsQ&s=09' aria-label='Twitter' target='_blank'>
                   <FontAwesomeIcon
                     icon={faTwitter}
                     className='text-gray-700 w-5 h-5 hover:text-gray-900'
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href='https://youtube.com' aria-label='YouTube'>
+                <Link href='https://www.youtube.com/@maqalka' aria-label='YouTube' target='_blank'>
                   <FontAwesomeIcon
                     icon={faYoutube}
                     className='text-gray-700 w-5 h-5 hover:text-gray-900'
@@ -81,10 +81,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href='https://facebook.com' aria-label='Facebook'>
+                <Link aria-label='Facebook' href='https://www.facebook.com/maqalkabulshada?mibextid=ZbWKwL'
+                     target='_blank'>
                   <FontAwesomeIcon
                     icon={faFacebook}
                     className='text-gray-700 w-5 h-5 hover:text-gray-900'
+                     
                   />
                 </Link>
               </li>

@@ -12,22 +12,22 @@ const Footer = () => {
       <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0'>
           <div className='flex space-x-4'>
-            <Link href='/' className='text-gray-100 hover:text-red-400'>
+            <Link href='/' className='text-gray-100 hover:text-red-400' target='_blank' >
               Home
             </Link>
-            <Link href='/about' className='text-gray-100 hover:text-red-400'>
+            <Link href='/about' className='text-gray-100 hover:text-red-400' target='_blank' >
               About
             </Link>
-            <Link href='/contact' className='text-gray-100 hover:text-red-400'>
+            <Link href='/contact' className='text-gray-100 hover:text-red-400' target='_blank' >
               Contact
             </Link>
-            <Link href='/blogs' className='text-gray-100 hover:text-red-400'>
+            <Link href='/blogs' className='text-gray-100 hover:text-red-400' target='_blank' >
               Blogs
             </Link>
           </div>
           <div className='flex space-x-4'>
             <Link
-              href='#'
+              href='https://x.com/its_naaleeye?t=UeXN580xMCRPeFhjdQnfsQ&s=09'
               target='_blank'
               className='text-gray-100 hover:text-red-400'
             >
@@ -49,9 +49,12 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className='mt-8 text-center text-gray-100'>
-          &copy; {new Date().getFullYear()} <strong>Maqalka.</strong> All rights
+        <div className='flex flex-col items-center justify-center mt-8 text-center text-gray-100'>
+          <span>Design with 💓 by <Link href='https://x.com/HusseinKadare2' target='_blank' className='text-[#f63d68]'>Hussein</Link> </span>
+          <div>
+          &copy; {new Date().getFullYear()} <strong className='text-[#f63d68]'>Maqalka.</strong> All rights
           reserved.
+          </div>
         </div>
       </div>
     </footer>
