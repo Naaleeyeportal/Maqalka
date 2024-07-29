@@ -8,8 +8,8 @@ const inter = Inter({subsets: ['latin']});
 
 export const metadata: Metadata = {
   title: {
-    default: 'Maqalka blog',
-    template: '%s - Maqalka blog',
+    default: 'Maqalka',
+    template: '%s - Maqalka',
   },
   description:
     '  Xaqiijinta xogta dhagahaaga soo gaarta, shaandayn iyo kala saarid!',
