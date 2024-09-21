@@ -31,7 +31,7 @@ const BlogDetails = async ({params}: {params: {id: string}}) => {
   }
 
   return (
-    <section className='py-8 sm:py-16 bg-primary'>
+    <section className='py-8 sm:py-16 bg-primary ' style={{color:'#fff'}}>
       <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='bg-accent rounded-lg shadow-md overflow-hidden'>
           {blog.mainImage?.asset?.url && (
@@ -49,12 +49,12 @@ const BlogDetails = async ({params}: {params: {id: string}}) => {
           )}
           <div className='p-6'>
             {blog.publishedAt && (
-              <p className='text-gray-300 mb-6'>
+              <p className='text-secondary mb-6'>
                 Published on: {new Date(blog.publishedAt).toDateString()}
               </p>
             )}
             {blog.author.name && (
-              <p className='text-gray-300 mb-6'>
+              <p className='text-secondary mb-6'>
                 Published by: {blog.author.name}
               </p>
             )}

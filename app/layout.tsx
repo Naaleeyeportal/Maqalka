@@ -25,7 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${inter.className} bg-primary`}>
+            <head>
+        <meta name="theme-color" content="#0e1226" /> {/* Add theme-color */}
+      </head>
+      <body className={`${inter.className} bg-primary text-secondary`}>
         <Navbar />
         {children}
         <Footer />
